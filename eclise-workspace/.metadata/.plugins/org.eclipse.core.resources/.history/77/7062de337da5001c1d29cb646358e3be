@@ -1,0 +1,5 @@
+package br.com.fiap.objetos;
+
+public class Veiculo {
+
+}

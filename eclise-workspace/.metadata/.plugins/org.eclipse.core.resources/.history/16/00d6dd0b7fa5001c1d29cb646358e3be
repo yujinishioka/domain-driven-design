@@ -1,0 +1,8 @@
+package br.com.fiap.objetos;
+
+public class Programa {
+	//main (ctrl+espaço)
+	public static void main(String[] args) {
+		
+	}
+}
