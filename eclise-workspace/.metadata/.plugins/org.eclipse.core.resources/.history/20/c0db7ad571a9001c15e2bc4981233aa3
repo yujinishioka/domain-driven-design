@@ -10,7 +10,6 @@ public class Teste {
 		System.out.print("\n Ola mundo 3");
 		System.out.println(5+7);
 		System.out.println("5"+"7");
-		System.out.println();
 
 	}
 
