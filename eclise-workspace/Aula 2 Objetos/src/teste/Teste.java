@@ -6,12 +6,11 @@ public class Teste {
 		// TODO Auto-generated method stub
 
 		System.out.print("Ola mundo");
-		System.out.println("\n\nOla mundo 2");
-		System.out.print("\n Ola mundo 3");
+		System.out.println("\n\nOla mundo de novo");
+		System.out.print("\n Ola mundo e de novo");
 		System.out.println(5+7);
 		System.out.println("5"+"7");
 		System.out.println();
 
 	}
-
 }

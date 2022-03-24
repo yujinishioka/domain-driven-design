@@ -1,0 +1,20 @@
+package teste;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//SYSOU <ctrl + espaço>
+		System.out.println("Ola mundo");
+		
+		//declaração de variavel
+		String nome = "Vinicius Yuji Nishioka";
+		int idade = 25;
+		
+		//concatenação
+		System.out.println("Ola" + nome + " você tem " + idade + " anos.");
+
+	}
+
+}

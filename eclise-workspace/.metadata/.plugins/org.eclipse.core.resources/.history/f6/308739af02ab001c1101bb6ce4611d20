@@ -1,0 +1,15 @@
+package teste;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//SYSOU <ctrl + espaço>
+		System.out.println("Ola mundo");
+		String nome = "Vinicius Yuji Nishioka";
+		System.out.println("Ola", nome);
+
+	}
+
+}

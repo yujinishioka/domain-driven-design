@@ -7,9 +7,14 @@ public class Teste {
 		
 		//SYSOU <ctrl + espaço>
 		System.out.println("Ola mundo");
-		System.out.println("Ola mundo 2");
-		System.out.println("Ola mundo 3");
+		
+		//declaração de variavel
+		String nome = "Vinicius Yuji Nishioka";
+		byte idade = 25;
+		double peso = 70.500;
+		
+		//concatenação
+		System.out.println("Ola " + nome + " você tem " + idade + " anos.");
 
 	}
-
 }
