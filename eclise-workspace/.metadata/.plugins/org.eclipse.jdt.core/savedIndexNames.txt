@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+C:\Github\domain-driven-design\eclise-workspace\.metadata\.plugins\org.eclipse.jdt.core
-3115201873.index
-849888658.index
-1034429180.index
