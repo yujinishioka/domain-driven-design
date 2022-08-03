@@ -30,10 +30,33 @@ public class RevisaoArray {
         }
     }
 
+    public int obterNumero() {
+        System.out.println("-- Obter número --");
+        Scanner input = new Scanner(System.in);
+        System.out.println("Numero: ");
+        int n = input.nextInt();
+        return n;
+    }
+
+    public int obterOcorrencias(int[] v, int n) {
+        System.out.println("-- Verificar ocorrencias... --");
+        int c = 0;
+
+        for(int i=0; i < v.length; i++) {
+            if(v[i] == n) {
+                c++;
+            }
+        }
+        return c;
+    }
+
     public static void main(String[] args) {
         RevisaoArray obj = new RevisaoArray();
         int t = obj.tamanhoVetor();
         int[] v = obj.criarVetor(t);
         obj.imprimirVetor(v);
+        int n = obj.obterNumero();
+        int c = obj.obterOcorrencias(v, n);
+        System.out.printf("Ocorrencias de %d: %d\n", n, c);
     }
 }
