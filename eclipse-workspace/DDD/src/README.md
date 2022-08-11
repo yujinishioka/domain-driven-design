@@ -32,3 +32,26 @@
 
 * Pessoa
 * Herança
+
+## Aula 8
+
+* Animal
+* Classe Abstrata
+
+## Aula 9
+
+* Assalariado
+* Classe Abstrata
+
+## Aula 10
+
+* Arrays
+
+## Aula 11
+
+* Matrizes
+
+## Aula 12
+
+* Alunos
+* Lista
