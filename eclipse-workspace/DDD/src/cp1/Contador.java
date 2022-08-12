@@ -1,4 +1,4 @@
-package checkp1;
+package cp1;
 
 public class Contador {
 

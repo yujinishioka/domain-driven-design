@@ -13,6 +13,7 @@ public class Temperatura {
 		System.out.println("-- CONVERSAO DE TEMPERATURA --");
 		System.out.println("Digite a Temperatura em Fahrenheit: ");
 		tempF = input.nextFloat();
+		input.close();
 
 		tempC = (tempF - 32)/1.8;
 		

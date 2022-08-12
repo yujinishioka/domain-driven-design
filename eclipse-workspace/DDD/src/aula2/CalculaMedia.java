@@ -25,6 +25,9 @@ public class CalculaMedia {
 		System.out.println("Nota 3: ");
 		nota3 = input.nextFloat();
 		
+		// encerrando Scanner
+		input.close();
+		
 		// processamento
 		media = (nota1+nota2+nota3)/3;
 		

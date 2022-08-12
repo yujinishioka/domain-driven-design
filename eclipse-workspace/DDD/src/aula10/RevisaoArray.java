@@ -9,6 +9,7 @@ public class RevisaoArray {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Tamanho do Vetor: ");
 		int t = input.nextInt();
+		input.close();
 		return t;
 	}
 
@@ -20,6 +21,7 @@ public class RevisaoArray {
             System.out.printf("vetor[%d]: \n", i);
             vetor[i] = input.nextInt();
         }
+        input.close();
         return vetor;
     }
 
@@ -35,6 +37,7 @@ public class RevisaoArray {
         Scanner input = new Scanner(System.in);
         System.out.println("Numero: ");
         int n = input.nextInt();
+        input.close();
         return n;
     }
 

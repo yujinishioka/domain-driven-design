@@ -13,6 +13,7 @@ public class DobraNumero {
 		System.out.println("-- DOBRA NUMERO --");
 		System.out.println("Digite um numero: ");
 		numero = input.nextFloat();
+		input.close();
 
 		res = numero*2;
 		
