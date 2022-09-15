@@ -12,6 +12,7 @@ public class Matrizes {
 		vetor[0] = input.nextInt();
 		System.out.println("Colunas: ");
 		vetor[1] = input.nextInt();
+		input.close();
 		return vetor;
 	}
 	
@@ -26,6 +27,7 @@ public class Matrizes {
 				matriz[i][j] = input.nextInt();
 			}
 		}
+		input.close();
 		return matriz;
 	}
 	
@@ -46,6 +48,7 @@ public class Matrizes {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Numero: \n");
 		int n = input.nextInt();
+		input.close();
 		return n;
 	}
 	
