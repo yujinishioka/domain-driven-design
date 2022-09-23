@@ -5,12 +5,14 @@ import java.util.Date;
 public class Candidato {
 	private String nome, cpf, email;
 	private Date dataNascimento;
+	private int id;
 	
-	public Candidato(String nome, String cpf, String email, Date dataNascimento) {
+	public Candidato(String nome, String cpf, String email, Date dataNascimento, int id) {
 		this.nome = nome;
 		this.cpf = cpf;
 		this.email = email;
 		this.dataNascimento = dataNascimento;
+		this.id = id;
 	}
 
 	public String getNome() {
@@ -43,5 +45,21 @@ public class Candidato {
 
 	public void setDataNascimento(Date dataNascimento) {
 		this.dataNascimento = dataNascimento;
+	}
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	public String toString() {
+		return "[id: " + this.getId() + " | nome: " + this.getNome() + " | e-mail: " + this.getEmail() + " | CPF: " + this.getCpf() + " | Data de Nascimento: " + this.getDataNascimento() + "]";
+	}
+	
+	public void imprimeCandidato(Candidato c) {
+		System.out.println(c.toString());
 	}
 }
