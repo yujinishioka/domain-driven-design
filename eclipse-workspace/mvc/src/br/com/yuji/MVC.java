@@ -9,5 +9,4 @@ public class MVC {
 		Ordenacao ordenacao = new OrdenacaoBO().bubbleSort(532135);
 		System.out.println(ordenacao);
 	}
-
 }
