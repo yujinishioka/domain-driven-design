@@ -52,9 +52,7 @@ public class GerenciadorClientes {
 		ps.setString(1, c.getNome());
 		ps.setString(2, c.getSobrenome());
 		ps.executeQuery();
-		
-		conn.close();
-		
+
 	}
 	
 }
