@@ -6,7 +6,6 @@ public class Score {
 	private int pontos;
 	
 	public Score(String jogador, int pontos) {
-		super();
 		this.jogador = jogador;
 		this.pontos = pontos;
 	}
@@ -25,5 +24,13 @@ public class Score {
 
 	public void setPontos(int pontos) {
 		this.pontos = pontos;
+	}
+	
+	@Override
+	public String toString() {
+		return 	"- "
+			.concat(String.valueOf(this.getPontos()))
+			.concat(" ")
+			.concat(String.valueOf(this.getJogador()));
 	}
 }
